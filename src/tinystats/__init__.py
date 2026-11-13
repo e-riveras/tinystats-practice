@@ -1,5 +1,5 @@
 """Small summary statistics."""
 
-from tinystats.core import mean
+from tinystats.core import mean, median
 
-__all__ = ["mean"]
+__all__ = ["mean","median"]
