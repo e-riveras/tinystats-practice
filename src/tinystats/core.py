@@ -28,6 +28,7 @@ def mean(values):
         raise ValueError("values must not be empty")
     return sum(values) / len(values)
 
+
 def median(values):
 
     sorted_num = sorted(values)
