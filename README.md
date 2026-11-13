@@ -1,17 +1,15 @@
 # tinystats
 
-[![CI](https://github.com/OWNER/REPO/actions/workflows/ci.yml/badge.svg?branch=dev)](https://github.com/OWNER/REPO/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/OWNER/REPO/branch/dev/graph/badge.svg)](https://codecov.io/gh/OWNER/REPO)
+[![CI](https://github.com/e-riveras/tinystats-practice/actions/workflows/ci.yml/badge.svg?branch=dev)](https://github.com/e-riveras/tinystats-practice/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/e-riveras/tinystats-practice/branch/dev/graph/badge.svg)](https://codecov.io/gh/e-riveras/tinystats-practice)
 
 Small summary statistics for a list of numbers. A team builds this package to practice Git, pull requests, test-driven development (TDD), and continuous integration (CI).
-
-Replace `OWNER/REPO` in the badges with the GitHub owner and repo name.
 
 ## Install for development
 
 ```bash
-git clone git@github.com:OWNER/REPO.git
-cd REPO
+git clone git@github.com:e-riveras/tinystats-practice.git
+cd tinystats-practice
 python -m venv .venv
 source .venv/bin/activate
 pip install -e ".[dev]"
